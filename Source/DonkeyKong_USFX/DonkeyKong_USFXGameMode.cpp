@@ -42,7 +42,7 @@ void ADonkeyKong_USFXGameMode::BeginPlay()
 
 	//Facade
 	AEnemigosFacade* Facade = GetWorld()->SpawnActor<AEnemigosFacade>(AEnemigosFacade::StaticClass());
-	Facade->spawn("ave", 3, PosicionMapa);
+	Facade->spawn("sjidnc", 3, PosicionMapa);
 	Facade->atacar();
 }
 

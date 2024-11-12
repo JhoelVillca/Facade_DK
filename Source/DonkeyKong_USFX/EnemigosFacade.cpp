@@ -40,7 +40,7 @@ void AEnemigosFacade::spawn(FString _enemigo, int _cantidad,TMap<int, APlataform
 		}
 		else if (_enemigo.Equals("PuercoEspin")) {
 			//Enemigo = GetWorld()->SpawnActor<AEnemigos>(AEnemigoPuercoEspin::StaticClass());
-		} else GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("No se encontro el enemigo"));
+		};//else GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("No se encontro el enemigo"));
 
 		if (Enemigo) {
 			Enemigos.Add(Enemigo);
